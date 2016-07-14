@@ -249,6 +249,259 @@ main{
   text-decoration: none;
 }
 
+/*-----------------START OF SEARCH FORMS------------------*/
+.search_forms {
+   max-width: 907px;
+   margin-top: 10px;
+}
+
+/*-----start of first form - ATO-SEARCH------*/
+.auto_search {
+   float: left;
+   padding-left: 17px;
+   padding-right: 13px;
+   width:384px;
+   height: 134px;
+   border: 2px solid #b6b6b7;
+   border-radius: 18px;
+   box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+   margin-bottom: 15px
+}
+
+.auto_search_header p{
+   display: inline;
+   font-size: 10px;
+   color: #154467;
+   font-weight: bold;
+}
+
+.auto_search_header span {
+   font-size: 12px;
+   margin-left: 74px;
+   margin-right:  93px;
+}
+
+.auto_disk_search {
+    float: left;
+}
+
+.car_brand, .car_model, .car_complectation, .car_year {
+    margin-bottom: 3px;
+}
+
+ .car_brand p, .car_model p, .car_complectation p, .car_year p{
+
+    display: inline-block;
+    color: black;
+    font-size: 10px;
+    width: 75px;
+}
+
+ .car_brand span, .car_model span, .car_year span {
+    color: #77858b;
+}
+
+ .car_brand select, .car_model select, .car_complectation select{
+   width: 98px;
+   height: 17px;
+   margin-top: 3px;
+}
+
+.car_year select{
+    width: 56px;
+    height: 17px;
+}
+
+.auto_bus_search {
+    float: left;
+    margin-left: 26px;
+}
+
+.searching {
+    text-align: right;
+    font-style: italic;
+}
+
+ .searching a {
+    color: #154467;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-family: 'ArialBoldItalic', sans-serif;
+}
+/*-----end of first form - ATO-SEARCH------*/
+
+/*-----start of second form - BUS-SEARCH------*/
+ .bus_search {
+    position: relative;
+    float: left;
+    padding: 6px 14px 10px 10px;
+    margin-left: 15px;
+    margin-right: 11px;
+    width:165px;
+    height: 116px;
+    border: 2px solid #b6b6b7;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+ .bus_search_header p{
+    margin-bottom: 6px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 11px;
+    color: #114165;
+}
+
+ .bus_size p{
+    display: inline-block;
+    font-size: 10px;
+    color: black;
+}
+
+.bus_size select {
+   width: 49px;
+   height: 17px;
+   margin-left: 2px;
+}
+
+.bus_R {
+   margin-left: 34px;
+   margin-top: 7px;
+}
+
+.bus_R p{
+   display: inline-block;
+   text-align: right;
+   font-size: 10px;
+   color: black;
+}
+
+.bus_R select {
+   width: 44px;
+   height: 17px;
+}
+
+.bus_season_header p {
+   display: inline-block;
+   font-size: 10px;
+   color: black;
+   margin-left: 2px;
+}
+
+.bus_season_checkbox {
+   position: absolute;
+   top: 68px;
+   left:50px;
+}
+
+.bus_season_checkbox_1 {
+   display: inline-block;
+   vertical-align: middle;
+   margin: -5px 0 -3px 0;
+}
+
+.bus_season_checkbox label {
+   display: inline-block;
+   font-size: 10px;
+   color: black;
+   margin-right: 70px;
+   vertical-align: super;
+   line-height: 0;
+}
+
+.searching_2 {
+   position: absolute;
+   right: 18px;
+   bottom: 8px;
+}
+
+.searching_2 a{
+   color: #154467;
+   font-size: 14px;
+   text-transform: lowercase;
+   text-align: right;
+   font-style: italic;
+   font-family: 'ArialBoldItalic', sans-serif;
+}
+/*-----end of second form - BUS-SEARCH------*/
+
+
+/*-----start of third form - DISKS-SEARCH------*/
+.disks_search {
+   position: relative;
+   float: left;
+   padding: 6px 15px 9px 9px;
+   width:242px;
+   height: 116px;
+   border: 2px solid #b6b6b7;
+   border-radius: 15px;
+   box-shadow: 2px 2px 8px 0px rgba(150,150,150,1);
+}
+
+.disks_search_header p{
+   margin-bottom: 5px;
+   font-size: 12px;
+   color: #114165;
+   font-weight: bold;
+}
+
+.disks_diametr p, .disks_amount p, .disks_DCO p,.disks_ET p {
+   display: inline-block;
+   color: black;
+   font-size: 10px;
+   margin-bottom: 2px;
+   width: 90px;
+   vertical-align: middle;
+}
+
+.disks_diametr span, .disks_amount span{
+    color: #77858b;
+    font-size: 9px;
+}
+
+ .disks_DCO span,.disks_ET span {
+    color: #77858b;
+    font-size: 9px;
+ }
+
+
+.disks_search select {
+   width: 56px;
+   height: 17px;
+   margin-bottom: 4px;
+   vertical-align: middle;
+}
+
+.disks_search_right_side {
+   position: absolute;
+   left: 174px;
+   top: 1px;
+   padding-left: 10px;
+   border-left: 1px solid #bdc6ca;
+   margin-top: 5px;
+}
+
+.disks_search_right_side select {
+  margin-bottom: 4px;
+}
+
+.searching_3 {
+   position: absolute;
+   right: 18px;
+   bottom: 8px;
+}
+
+.searching_3 a{
+   color: #154467;
+   font-size: 14px;
+   text-transform: lowercase;
+   text-align: right;
+   font-style: italic;
+   font-family: 'ArialBoldItalic', sans-serif;
+}
+/*-----end of third form - DISKS-SEARCH------*/
+/*------------------------END OF SEARCH FORMS--------------------------------------*/
+
 .catalogue{
   width: 191px;
   padding: 4px 0;

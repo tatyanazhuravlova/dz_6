@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8">
@@ -28,7 +28,6 @@
           <a href="" class="reg">регистрация</a>
           <a href="" class="pass-recovery">забыли пароль?</a>
         </div>
-
         <div class="some-btns">
           <a href="#"><img src="img/home.png" alt=""></a>
           <a href="#"><img src="img/sitemap.png" alt=""></a>
@@ -54,7 +53,186 @@
           <a href="#">0,00 грн.</a>
         </div>
       </nav>
+      <!--START OF SEARCH FORMS-->
+  <figure class="search_forms clearfix">
+     <div class="auto_search">
+        <div class="auto_search_header">
+           <p>Диски:</p>
+           <p><span>Поиск по автомобилю</span></p>
+           <p>Шины:</p>
+        </div>
+    <form class="auto_search_form" action="index.html" method="post"> <!--start of first form-->
+      <div class="auto_disk_search">
+          <div class="car_brand">
+              <p> Марка <span>авто:</span></p>
+              <select>
+                <option>Lanos</option>
+                <option>BMW</option>
+                <option>Lexus</option>
+              </select>
+          </div>
+           <div class="car_model">
+              <p> Модель <br> <span>автомобиля:</span></p>
+              <select>
+                <option>Модель 1</option>
+                <option>Модель 2</option>
+                <option>Модель 3</option>
+             </select>
+          </div>
+          <div class="car_year">
+             <p>Год выпуска<br><span>авто:</span></p>
+             <select>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+             </select>
+        </div>
+         <div class="car_complectation">
+            <p> Комплектация:</p>
+            <select>
+               <option>11</option>
+               <option>12</option>
+               <option>13</option>
+            </select>
+        </div>
+    </div>
+     <div class="auto_bus_search">
+        <div class="car_brand">
+           <p> Марка <span>авто:</span></p>
+           <select>
+              <option>Lanos</option>
+              <option>ВMW</option>
+              <option>Lexus</option>
+           </select>
+        </div>
+        <div class="car_model">
+           <p> Модель <br> <span>автомобиля:</span></p>
+           <select>
+              <option>Модель 1</option>
+              <option>Модель 2</option>
+              <option>Модель 3</option>
+          </select>
+       </div>
+       <div class="car_year">
+          <p>Год выпуска <br><span>авто:</span></p>
+          <select>
+             <option>2000</option>
+             <option>2001</option>
+             <option>2002</option>
+          </select>
+      </div>
+      <div class="car_complectation">
+        <p> Комплектация:</p>
+        <select>
+           <option>11</option>
+           <option>12</option>
+           <option>13</option>
+       </select>
+      </div>
+    </div>
+ </form>
+ <div class="searching">
+   <a href="#"> Поиск... </a>
+ </div>
+</div> <!--end of first form-->
 
+<!--start of second form-->
+<div class="bus_search">
+  <div class="bus_search_header"> <p> ПОИСК ШИН  </p>  </div>
+    <form class="bus_search_form" action="index.html" method="post">
+       <div class="bus_size">
+         <p>Размер: </p>
+         <select>
+            <option>145</option>
+            <option>146</option>
+            <option>147</option>
+         </select>
+         <p>   /  </p>
+         <select>
+           <option>20</option>
+           <option>30</option>
+           <option>40</option>
+        </select>
+     </div>
+     <div class="bus_R">
+       <p>  R  </p>
+       <select>
+         <option>20</option>
+         <option>30</option>
+         <option>40</option>
+       </select>
+     </div>
+  <div class="bus_season">
+    <div class="bus_season_header">
+        <p> Сезон:</p>
+    </div>
+    <div class="bus_season_checkbox">
+      <div class="bus_season_checkbox_1"><input type="checkbox" id="summer"> <label for="summer">лето </label></div>
+      <div class="bus_season_checkbox_1"><input type="checkbox"  id="winter"> <label for="winter">зима</label></div>
+      <div class="bus_season_checkbox_1"><input type="checkbox"  id="allseasons"> <label for="allseasons">всесез</label></div>
+    </div>
+  </div>
+ </form>
+ <div class="searching_2">
+   <a href="#"> Поиск... </a>
+  </div>
+</div> <!--end of first form-->
+
+<!--end of third form-->
+ <div class="disks_search">
+      <form class="disks_search_form1" action="index.html" method="post">
+        <div class="disks_search_header">
+          <p>ПОИСК ДИСКОВ </p>
+        </div>
+        <div class="disks_diametr">
+          <p> Диаметр <span>диска </span>: </p>
+           <select>
+            <option>20</option>
+            <option>30</option>
+            <option>40</option>
+          </select>
+        </div>
+        <div class="disks_amount">
+          <p> Количество <span><br>крепёжных <br>отверстий</span>:</p>
+           <select>
+            <option>20</option>
+            <option>30</option>
+            <option>40</option>
+          </select>
+        </div>
+        <div class="disks_diametr">
+          <p> Диаметр  <span><br>расположения <br>крепёжных <br>отверстий </span>:</p>
+           <select>
+            <option>20</option>
+            <option>30</option>
+            <option>40</option>
+          </select>
+        </div>
+        <div class="disks_search_right_side">
+          <div class="disks_DCO">
+            <p> ДЦО <br><span>(диаметр <br> центрального <br>отверстия) </span>:</p>
+             <select>
+              <option>20</option>
+              <option>30</option>
+              <option>40</option>
+            </select>
+            <div class="disks_ET">
+              <p> ET <span>(вылет диска)</span>:</p>
+               <select>
+                <option>20</option>
+                <option>30</option>
+                <option>40</option>
+              </select>
+          </div>
+        </div>
+        </div>
+      </form>
+      <div class="searching_3">
+        <a href="#"> Поиск... </a>
+      </div>
+   </div><!--end of third form-->
+</figure>
+<!--END OF SEARCH FORMS-->
    <div class="crazy-filters"></div>
 
       <div class="clearfix">
